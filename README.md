@@ -6,7 +6,7 @@ Timsort? Radix Sort? Quicksort? Quantum BogoSort? Parallel Bitonic Merge Sort???
 
 ## The Algorithm
 
-Given an array of $N$ elements 
+Given an array of $N$ elements, 
 $A = [a_0,..., a_N]$
 
 The Simple Sort algorithm is defined as the procedure
