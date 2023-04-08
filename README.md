@@ -16,6 +16,7 @@ The Simple Sort algorithm is defined as the procedure
 ### Algorithmic Analysis
 
 The worst-case time complexity of Simple Sort is quite intuitively $O(N^2)$
+
 Its worst-case space complexity is clearly $O(1)$
 
 ## The Paper
