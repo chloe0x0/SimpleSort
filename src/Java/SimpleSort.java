@@ -4,7 +4,7 @@ import java.random;
  * Implementation of the Simple Sort Algorithm in Java for integer arrays
  */
 public class SimpleSort {
-    public void sort(int arr[]) {
+    public static void sort(int arr[]) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -18,14 +18,9 @@ public class SimpleSort {
     }
 
     public static void main(String[] args) {
-        int arr[10] = {6, 7, 1, 5, 2, 5, 16, 0, 17, 5};
-        for (int i : arr) {
-            System.out.println(i);
-        }
+        int arr[] = {6, 7, 1, 5, 2, 5, 16, 0, 17, 5};
+        System.out.println(Arrays.toString(arr));
         sort(arr);
-        for (int i : arr) {
-            System.out.println(i);
-        }
+        System.out.println(Arrays.toString(arr));
     }
 }
-
