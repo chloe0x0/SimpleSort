@@ -1,4 +1,5 @@
 import java.random;
+import java.util.Arrays; 
 
 /*
  * Implementation of the Simple Sort Algorithm in Java for integer arrays
